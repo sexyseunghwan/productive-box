@@ -2,7 +2,7 @@ name: Update gist
 on:
   push:
     branches:
-      - mastera
+      - master
   schedule:
     - cron: "0 0 * * *"
 jobs:
